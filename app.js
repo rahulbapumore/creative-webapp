@@ -59,17 +59,17 @@ btn3.addEventListener("click",function()
     let subtitle = document.getElementById("subtitle").value.trim()
     if( title === "")
     {
-        alert("");
+        alert("Please enter title");
         return;
     }
     else if(subtitle === "" )
     {
-        alert("");
+        alert("Please enter subtitle");
         return;
     }
     else if(color === "")
     {
-        alert(""); 
+        alert("Please select color"); 
         return;
     }
     const ob = new obj(title,subtitle,color);
