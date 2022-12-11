@@ -1,0 +1,201 @@
+*
+{
+    box-sizing: border-box;
+}
+
+h6
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-size: 1rem;
+}
+
+#outer
+{
+    width: 90vw;
+    height: 90vh;
+    border: 1px solid black;
+    padding: 2rem;
+    padding-top: 1rem;
+    background-color: bisque;
+}
+
+#outer2
+{
+    width: 0vw;
+    height: 90vh;
+    border: 1px solid black;
+    display: none;
+    flex-direction: column;
+    background-color: bisque;
+    padding: 2rem;
+    
+    
+}
+
+#veryouter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+h2
+{
+    padding-top: 2rem;
+}
+span
+{
+    padding-top: 2rem;
+}
+#colors
+{
+    padding-top: 2rem;
+    
+}
+
+.btn,.btnh
+{
+    margin: 0.5rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border: 0.05rem solid black;
+}
+
+#progress-bar
+{
+    margin-top: 2rem;
+    height: 1.4rem;
+    width: 20rem;
+    background-color: white;
+    border: 0.05rem solid black;
+    border-radius: 0.5rem;
+}
+#button1,#button4
+{
+    margin-top: 2rem;
+    height: 2rem ;
+    width: 8rem;
+    border: 0.05rem solid black;
+    border-radius: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    padding: 0.05rem;
+    color: cornflowerblue;
+    background-color: white;
+    opacity: 0.7;
+}
+
+#progress-bar div
+{
+    width: 10%;
+    background-color: black;
+    height: 1.4rem;
+    border: 0.05rem solid white;
+    border-radius: 0.5rem;
+}
+
+#creative-creation
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25vw;
+   
+ 
+}
+.create-subtitle
+{
+    margin-top: 2rem;
+
+}
+.create-title input,.create-subtitle input
+{
+
+    margin-top: 2rem;
+    height: 2rem;
+    width: 20rem;
+}
+
+label
+{
+    
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+#createbox
+{
+    
+    padding-top: 4rem;
+    width: 8rem;
+}
+
+#button3
+{
+    margin-top: 2rem;
+    height: 2rem ;
+    width: 8rem;
+    border: 0.05rem solid black;
+    border-radius: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    padding: 0.05rem;
+    color: cornflowerblue;
+    background-color: white;
+    opacity: 0.7;
+}
+
+#showcreation
+{
+    display: flex;
+    justify-content: first baseline;
+    align-items: baseline;
+    flex-wrap: wrap ;
+    height: 40%;
+    
+    margin: 1rem;
+
+    
+    
+    overflow-y: auto;
+
+}
+
+.widget
+{
+    border: 1px solid black;
+    margin: 0.5rem;
+    height: 6rem;
+    width: 500px;
+    height: auto;
+    padding: 1rem;
+}
+
+
+span
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-size: 1rem;
+    padding: 1rem;
+}
+.temp
+{
+    margin-top: 1rem;
+}
+
+.btnh:hover,.btn:hover
+{
+    border: 2px solid black;
+}
+
+button
+{
+    margin: 0.05rem;
+}
