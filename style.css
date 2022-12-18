@@ -1,6 +1,11 @@
 *
 {
     box-sizing: border-box;
+    
+}
+body
+{
+    background-color: bisque;
 }
 
 h6
@@ -14,10 +19,10 @@ h6
 {
     width: 90vw;
     height: 90vh;
-    border: 1px solid black;
+
     padding: 2rem;
     padding-top: 1rem;
-    background-color: bisque;
+    
 }
 
 #outer2
@@ -38,7 +43,7 @@ h6
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    
     
 }
 
@@ -91,7 +96,7 @@ span
 
 #progress-bar div
 {
-    width: 10%;
+    width: 0.1%;
     background-color: black;
     height: 1.4rem;
     border: 0.05rem solid white;
@@ -172,7 +177,7 @@ label
     border: 1px solid black;
     margin: 0.5rem;
     height: 6rem;
-    width: 500px;
+    width: 31.25rem;
     height: auto;
     padding: 1rem;
 }

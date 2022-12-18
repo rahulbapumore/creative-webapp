@@ -94,6 +94,10 @@ btn3.addEventListener("click",function()
     document.getElementById("title").value = "";
     document.getElementById("subtitle").value = "";
     color = "";
+    let el = document.querySelector("#progress");
+    if(objectarr.length <6)
+    el.style.width =parseFloat((objectarr.length)*100/5)+"%";
+    
     btnh.forEach((bt)=>{
         bt.style.border = "1px solid black";
     });
